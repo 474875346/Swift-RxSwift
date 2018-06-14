@@ -15,6 +15,13 @@
 		B70AF49E20C669C6001C776C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70AF49C20C669C6001C776C /* LaunchScreen.storyboard */; };
 		B70AF4A920C669C6001C776C /* Swift_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AF4A820C669C6001C776C /* Swift_RxSwiftTests.swift */; };
 		B70AF4B420C669C6001C776C /* Swift_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AF4B320C669C6001C776C /* Swift_RxSwiftUITests.swift */; };
+		B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859820CFA07600AD26DC /* RxCollectionViewController.swift */; };
+		B726859B20CFA3D800AD26DC /* RxPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */; };
+		B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420DD20D110B8004896A6 /* GitHubAPI.swift */; };
+		B7D420E020D1158E004896A6 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420DF20D1158E004896A6 /* GitHubModel.swift */; };
+		B7D420E220D11632004896A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420E120D11632004896A6 /* ViewModel.swift */; };
+		B7D420E420D11D0B004896A6 /* GitHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420E320D11D0B004896A6 /* GitHubViewController.swift */; };
+		B7EB23BD20D0C8AC001358FB /* RxURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB23BC20D0C8AC001358FB /* RxURLSessionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		B70AF4AF20C669C6001C776C /* Swift-RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70AF4B320C669C6001C776C /* Swift_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		B70AF4B520C669C6001C776C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B726859820CFA07600AD26DC /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
+		B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPickerViewController.swift; sourceTree = "<group>"; };
+		B7D420DD20D110B8004896A6 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		B7D420DF20D1158E004896A6 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		B7D420E120D11632004896A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B7D420E320D11D0B004896A6 /* GitHubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewController.swift; sourceTree = "<group>"; };
+		B7EB23BC20D0C8AC001358FB /* RxURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxURLSessionViewController.swift; sourceTree = "<group>"; };
 		DAF8562BE28B0BCC8AFE6F9C /* Pods_Swift_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06A4A7CA0B34EE940AA03FF /* Pods-Swift-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-RxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-RxSwift/Pods-Swift-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F99421501A7E95F784A1576A /* Pods-Swift-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-RxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-RxSwift/Pods-Swift-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +128,13 @@
 			children = (
 				B70AF49320C669AE001C776C /* AppDelegate.swift */,
 				B70AF49520C669AE001C776C /* ViewController.swift */,
+				B726859820CFA07600AD26DC /* RxCollectionViewController.swift */,
+				B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */,
+				B7EB23BC20D0C8AC001358FB /* RxURLSessionViewController.swift */,
+				B7D420DD20D110B8004896A6 /* GitHubAPI.swift */,
+				B7D420DF20D1158E004896A6 /* GitHubModel.swift */,
+				B7D420E120D11632004896A6 /* ViewModel.swift */,
+				B7D420E320D11D0B004896A6 /* GitHubViewController.swift */,
 				B70AF49720C669AE001C776C /* Main.storyboard */,
 				B70AF49A20C669C5001C776C /* Assets.xcassets */,
 				B70AF49C20C669C6001C776C /* LaunchScreen.storyboard */,
@@ -285,13 +306,59 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-RxSwift/Pods-Swift-RxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaChainKit/CocoaChainKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/EachNavigationBar/EachNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCycleScrollView/FSCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftX/RxSwiftX.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaChainKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EachNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,8 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D420E420D11D0B004896A6 /* GitHubViewController.swift in Sources */,
 				B70AF49620C669AE001C776C /* ViewController.swift in Sources */,
+				B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */,
 				B70AF49420C669AE001C776C /* AppDelegate.swift in Sources */,
+				B726859B20CFA3D800AD26DC /* RxPickerViewController.swift in Sources */,
+				B7D420E020D1158E004896A6 /* GitHubModel.swift in Sources */,
+				B7EB23BD20D0C8AC001358FB /* RxURLSessionViewController.swift in Sources */,
+				B7D420E220D11632004896A6 /* ViewModel.swift in Sources */,
+				B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
