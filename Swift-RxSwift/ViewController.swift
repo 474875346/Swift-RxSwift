@@ -31,7 +31,9 @@ class ViewController: UIViewController {
 //        self.navigationController?.pushViewController(RxCollectionViewController(), animated: true)//跳转网格
 //        self.navigationController?.pushViewController(RxPickerViewController(), animated: true)//跳转pikerview
 //        self.navigationController?.pushViewController(RxURLSessionViewController(), animated: true)//跳转URLSession
-        self.navigationController?.pushViewController(GitHubViewController(), animated: true)
+//        self.navigationController?.pushViewController(GitHubViewController(), animated: true)//MVVM基本应用
+//        self.navigationController?.pushViewController(RegisteredViewController(), animated: true)//RxSwift注册
+        self.navigationController?.pushViewController(MJRefreshViewController(), animated: true)
     }
     
     

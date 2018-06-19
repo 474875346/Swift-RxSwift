@@ -15,6 +15,16 @@
 		B70AF49E20C669C6001C776C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70AF49C20C669C6001C776C /* LaunchScreen.storyboard */; };
 		B70AF4A920C669C6001C776C /* Swift_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AF4A820C669C6001C776C /* Swift_RxSwiftTests.swift */; };
 		B70AF4B420C669C6001C776C /* Swift_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AF4B320C669C6001C776C /* Swift_RxSwiftUITests.swift */; };
+		B72568B520D3971800E9C144 /* DriverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568B420D3971800E9C144 /* DriverViewModel.swift */; };
+		B72568B820D39EB400E9C144 /* RegisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568B620D39EB400E9C144 /* RegisteredViewController.swift */; };
+		B72568B920D39EB400E9C144 /* RegisteredViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72568B720D39EB400E9C144 /* RegisteredViewController.xib */; };
+		B72568BB20D3A0FA00E9C144 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568BA20D3A0FA00E9C144 /* GitHubNetworkService.swift */; };
+		B72568BD20D3A59F00E9C144 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568BC20D3A59F00E9C144 /* ValidationResult.swift */; };
+		B72568BF20D3A9AA00E9C144 /* GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568BE20D3A9AA00E9C144 /* GitHubSignupService.swift */; };
+		B72568C120D3AB6E00E9C144 /* GitHubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568C020D3AB6E00E9C144 /* GitHubSignupViewModel.swift */; };
+		B72568C320D3BB7A00E9C144 /* MJRefreshNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568C220D3BB7A00E9C144 /* MJRefreshNetworkService.swift */; };
+		B72568C520D3BBAB00E9C144 /* MJRefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568C420D3BBAB00E9C144 /* MJRefreshViewModel.swift */; };
+		B72568C720D3BC2600E9C144 /* MJRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */; };
 		B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859820CFA07600AD26DC /* RxCollectionViewController.swift */; };
 		B726859B20CFA3D800AD26DC /* RxPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */; };
 		B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420DD20D110B8004896A6 /* GitHubAPI.swift */; };
@@ -55,6 +65,16 @@
 		B70AF4AF20C669C6001C776C /* Swift-RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70AF4B320C669C6001C776C /* Swift_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		B70AF4B520C669C6001C776C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72568B420D3971800E9C144 /* DriverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewModel.swift; sourceTree = "<group>"; };
+		B72568B620D39EB400E9C144 /* RegisteredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredViewController.swift; sourceTree = "<group>"; };
+		B72568B720D39EB400E9C144 /* RegisteredViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisteredViewController.xib; sourceTree = "<group>"; };
+		B72568BA20D3A0FA00E9C144 /* GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
+		B72568BC20D3A59F00E9C144 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		B72568BE20D3A9AA00E9C144 /* GitHubSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupService.swift; sourceTree = "<group>"; };
+		B72568C020D3AB6E00E9C144 /* GitHubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewModel.swift; sourceTree = "<group>"; };
+		B72568C220D3BB7A00E9C144 /* MJRefreshNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshNetworkService.swift; sourceTree = "<group>"; };
+		B72568C420D3BBAB00E9C144 /* MJRefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewModel.swift; sourceTree = "<group>"; };
+		B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewController.swift; sourceTree = "<group>"; };
 		B726859820CFA07600AD26DC /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
 		B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPickerViewController.swift; sourceTree = "<group>"; };
 		B7D420DD20D110B8004896A6 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
@@ -134,7 +154,17 @@
 				B7D420DD20D110B8004896A6 /* GitHubAPI.swift */,
 				B7D420DF20D1158E004896A6 /* GitHubModel.swift */,
 				B7D420E120D11632004896A6 /* ViewModel.swift */,
+				B72568B420D3971800E9C144 /* DriverViewModel.swift */,
 				B7D420E320D11D0B004896A6 /* GitHubViewController.swift */,
+				B72568B620D39EB400E9C144 /* RegisteredViewController.swift */,
+				B72568B720D39EB400E9C144 /* RegisteredViewController.xib */,
+				B72568BA20D3A0FA00E9C144 /* GitHubNetworkService.swift */,
+				B72568BC20D3A59F00E9C144 /* ValidationResult.swift */,
+				B72568BE20D3A9AA00E9C144 /* GitHubSignupService.swift */,
+				B72568C020D3AB6E00E9C144 /* GitHubSignupViewModel.swift */,
+				B72568C220D3BB7A00E9C144 /* MJRefreshNetworkService.swift */,
+				B72568C420D3BBAB00E9C144 /* MJRefreshViewModel.swift */,
+				B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */,
 				B70AF49720C669AE001C776C /* Main.storyboard */,
 				B70AF49A20C669C5001C776C /* Assets.xcassets */,
 				B70AF49C20C669C6001C776C /* LaunchScreen.storyboard */,
@@ -278,6 +308,7 @@
 			files = (
 				B70AF49E20C669C6001C776C /* LaunchScreen.storyboard in Resources */,
 				B70AF49B20C669C5001C776C /* Assets.xcassets in Resources */,
+				B72568B920D39EB400E9C144 /* RegisteredViewController.xib in Resources */,
 				B70AF49920C669AE001C776C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,15 +421,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72568B520D3971800E9C144 /* DriverViewModel.swift in Sources */,
+				B72568BD20D3A59F00E9C144 /* ValidationResult.swift in Sources */,
 				B7D420E420D11D0B004896A6 /* GitHubViewController.swift in Sources */,
+				B72568B820D39EB400E9C144 /* RegisteredViewController.swift in Sources */,
 				B70AF49620C669AE001C776C /* ViewController.swift in Sources */,
 				B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */,
+				B72568BF20D3A9AA00E9C144 /* GitHubSignupService.swift in Sources */,
+				B72568C120D3AB6E00E9C144 /* GitHubSignupViewModel.swift in Sources */,
 				B70AF49420C669AE001C776C /* AppDelegate.swift in Sources */,
+				B72568C320D3BB7A00E9C144 /* MJRefreshNetworkService.swift in Sources */,
 				B726859B20CFA3D800AD26DC /* RxPickerViewController.swift in Sources */,
 				B7D420E020D1158E004896A6 /* GitHubModel.swift in Sources */,
 				B7EB23BD20D0C8AC001358FB /* RxURLSessionViewController.swift in Sources */,
 				B7D420E220D11632004896A6 /* ViewModel.swift in Sources */,
 				B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */,
+				B72568C720D3BC2600E9C144 /* MJRefreshViewController.swift in Sources */,
+				B72568BB20D3A0FA00E9C144 /* GitHubNetworkService.swift in Sources */,
+				B72568C520D3BBAB00E9C144 /* MJRefreshViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
