@@ -33,7 +33,8 @@ class ViewController: UIViewController {
 //        self.navigationController?.pushViewController(RxURLSessionViewController(), animated: true)//跳转URLSession
 //        self.navigationController?.pushViewController(GitHubViewController(), animated: true)//MVVM基本应用
 //        self.navigationController?.pushViewController(RegisteredViewController(), animated: true)//RxSwift注册
-        self.navigationController?.pushViewController(MJRefreshViewController(), animated: true)
+//        self.navigationController?.pushViewController(MJRefreshViewController(), animated: true)//RxSwift刷新
+        self.navigationController?.pushViewController(LocationViewController(), animated: true)
     }
     
     

@@ -27,6 +27,11 @@
 		B72568C720D3BC2600E9C144 /* MJRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */; };
 		B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859820CFA07600AD26DC /* RxCollectionViewController.swift */; };
 		B726859B20CFA3D800AD26DC /* RxPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */; };
+		B77934A020D8F35600939D78 /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779349F20D8F35600939D78 /* RxCLLocationManagerDelegateProxy.swift */; };
+		B77934A220D8F4EA00939D78 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77934A120D8F4EA00939D78 /* CLLocationManager+Rx.swift */; };
+		B77934A420D8F56600939D78 /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77934A320D8F56600939D78 /* GeolocationService.swift */; };
+		B77934A720D8FB7200939D78 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77934A520D8FB7200939D78 /* LocationViewController.swift */; };
+		B77934A820D8FB7200939D78 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77934A620D8FB7200939D78 /* LocationViewController.xib */; };
 		B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420DD20D110B8004896A6 /* GitHubAPI.swift */; };
 		B7D420E020D1158E004896A6 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420DF20D1158E004896A6 /* GitHubModel.swift */; };
 		B7D420E220D11632004896A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D420E120D11632004896A6 /* ViewModel.swift */; };
@@ -77,6 +82,11 @@
 		B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewController.swift; sourceTree = "<group>"; };
 		B726859820CFA07600AD26DC /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
 		B726859A20CFA3D800AD26DC /* RxPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPickerViewController.swift; sourceTree = "<group>"; };
+		B779349F20D8F35600939D78 /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		B77934A120D8F4EA00939D78 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		B77934A320D8F56600939D78 /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
+		B77934A520D8FB7200939D78 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B77934A620D8FB7200939D78 /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		B7D420DD20D110B8004896A6 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 		B7D420DF20D1158E004896A6 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
 		B7D420E120D11632004896A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -165,6 +175,11 @@
 				B72568C220D3BB7A00E9C144 /* MJRefreshNetworkService.swift */,
 				B72568C420D3BBAB00E9C144 /* MJRefreshViewModel.swift */,
 				B72568C620D3BC2600E9C144 /* MJRefreshViewController.swift */,
+				B779349F20D8F35600939D78 /* RxCLLocationManagerDelegateProxy.swift */,
+				B77934A120D8F4EA00939D78 /* CLLocationManager+Rx.swift */,
+				B77934A320D8F56600939D78 /* GeolocationService.swift */,
+				B77934A520D8FB7200939D78 /* LocationViewController.swift */,
+				B77934A620D8FB7200939D78 /* LocationViewController.xib */,
 				B70AF49720C669AE001C776C /* Main.storyboard */,
 				B70AF49A20C669C5001C776C /* Assets.xcassets */,
 				B70AF49C20C669C6001C776C /* LaunchScreen.storyboard */,
@@ -309,6 +324,7 @@
 				B70AF49E20C669C6001C776C /* LaunchScreen.storyboard in Resources */,
 				B70AF49B20C669C5001C776C /* Assets.xcassets in Resources */,
 				B72568B920D39EB400E9C144 /* RegisteredViewController.xib in Resources */,
+				B77934A820D8FB7200939D78 /* LocationViewController.xib in Resources */,
 				B70AF49920C669AE001C776C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,10 +437,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77934A420D8F56600939D78 /* GeolocationService.swift in Sources */,
 				B72568B520D3971800E9C144 /* DriverViewModel.swift in Sources */,
 				B72568BD20D3A59F00E9C144 /* ValidationResult.swift in Sources */,
 				B7D420E420D11D0B004896A6 /* GitHubViewController.swift in Sources */,
 				B72568B820D39EB400E9C144 /* RegisteredViewController.swift in Sources */,
+				B77934A720D8FB7200939D78 /* LocationViewController.swift in Sources */,
 				B70AF49620C669AE001C776C /* ViewController.swift in Sources */,
 				B7D420DE20D110B8004896A6 /* GitHubAPI.swift in Sources */,
 				B72568BF20D3A9AA00E9C144 /* GitHubSignupService.swift in Sources */,
@@ -438,6 +456,8 @@
 				B726859920CFA07600AD26DC /* RxCollectionViewController.swift in Sources */,
 				B72568C720D3BC2600E9C144 /* MJRefreshViewController.swift in Sources */,
 				B72568BB20D3A0FA00E9C144 /* GitHubNetworkService.swift in Sources */,
+				B77934A220D8F4EA00939D78 /* CLLocationManager+Rx.swift in Sources */,
+				B77934A020D8F35600939D78 /* RxCLLocationManagerDelegateProxy.swift in Sources */,
 				B72568C520D3BBAB00E9C144 /* MJRefreshViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
